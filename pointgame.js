@@ -18,7 +18,7 @@ function add_cir(x, y, r){
 
 function add_points(container){
   for(var i=0;i<100;i++){
-    for(var j=0;j<100;j++){
+    for(var j=0;j<10;j++){
       var cir = add_cir(i, j, 10);
       container.addChild(cir);
     }
